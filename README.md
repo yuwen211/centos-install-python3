@@ -7,7 +7,7 @@
 
  python: /usr/bin/python2.7 /usr/bin/python /usr/lib/python2.7 /usr/lib64/python2.7 /etc/python /usr/include/python2.7    /usr/share/man/man1/python.1.gz
 
--可以知道python在/usr/bin目录中
+--可以知道python在/usr/bin目录中
 
 [root@root ~]# cd /usr/bin/
 
@@ -19,7 +19,7 @@ lrwxrwxrwx. 1 root root    9 2月   7 09:30 python2 -> python2.7
 
 -rwxr-xr-x. 1 root root 7136 8月   4 2017 python2.7
 
--可以看到，python指向的是python2，python2指向的是python2.7，因此我们可以装个python3，然后将python指向python3，然后python2指向python2.7，那么两个版本的python就能共存了。
+--可以看到，python指向的是python2，python2指向的是python2.7，因此我们可以装个python3，然后将python指向python3，然后python2指向python2.7，那么两个版本的python就能共存了。
 
 
 

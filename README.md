@@ -3,6 +3,7 @@
 
 1.首先查看系统中python的位置在哪：
 [root@root ~]# whereis python
+
  python: /usr/bin/python2.7 /usr/bin/python /usr/lib/python2.7 /usr/lib64/python2.7 /etc/python /usr/include/python2.7    /usr/share/man/man1/python.1.gz
 
 -可以知道python在/usr/bin目录中

@@ -10,20 +10,27 @@
 -可以知道python在/usr/bin目录中
 
 [root@root ~]# cd /usr/bin/
+
 [root@root bin]# ll python*
+
 lrwxrwxrwx. 1 root root    7 2月   7 09:30 python -> python2
+
 lrwxrwxrwx. 1 root root    9 2月   7 09:30 python2 -> python2.7
+
 -rwxr-xr-x. 1 root root 7136 8月   4 2017 python2.7
 
 -可以看到，python指向的是python2，python2指向的是python2.7，因此我们可以装个python3，然后将python指向python3，然后python2指向python2.7，那么两个版本的python就能共存了。
 
 
 2.因为我们要安装python3，所以要先安装相关包，用于下载编译python3：
-yum install zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel readline-devel tk-devel gcc make 
+
+yum install zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel readline-devel tk-devel gcc make
+
 运行了以上命令以后，就安装了编译python3所用到的相关依赖
 
 
 3.用wget下载python3的源码包
+
 wget https://www.python.org/ftp/python/3.7.5/Python-3.7.5.tar.xz
 
 
